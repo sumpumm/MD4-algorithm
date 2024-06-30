@@ -119,5 +119,5 @@ def md4(message):
 
     return struct.pack('<4I', h0, h1, h2, h3)
 
-message = b"Hello, world!"
+message = b"Samarpan Piya"
 print(md4(message).hex())
